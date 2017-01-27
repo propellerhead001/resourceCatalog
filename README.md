@@ -1,4 +1,4 @@
-rest: Demonstrates how to create a REST Web service
+Resource Catalog Resource Catalog Management RESTful API
 ===============================================
 Author: Robert Mills 
 Level: Beginner  
@@ -9,18 +9,10 @@ Source: <https://github.com/propellerhead001/resourceCatalog>
 
 What is it?
 -----------
-This quick start demonstrates how to create a RESTful (JAX-RS) web service using CXF and expose it with the OSGi HTTP Service.
 
-In studying this quick start you will learn:
+This project is an example of the RESTful API for the catalog management interface of the resource catalog as defined by the TMForum in their OpenAPI spec.
 
-* how to configure the JAX-RS web services by using the blueprint configuration file.
-* how to use JAX-RS annotations to map methods and classes to URIs
-* how to use JAXB annotations to define beans and output XML responses
-* how to use the JAX-RS API to create HTTP responses
-
-For more information see:
-
-* <https://access.redhat.com/site/documentation/JBoss_Fuse/> for more information about using JBoss Fuse
+At this time only the /catalog/ commands have been implemented although there some further improvements to make
 
 System requirements
 -------------------
@@ -30,26 +22,15 @@ Before building and running this quick start you need:
 * JDK 1.7 or 1.8
 * JBoss Fuse 6
 
-Build and Deploy the Quickstart
+Build and Deploy the API
 -------------------------------
 
-1. Change your working directory to `rest` directory.
-* Run `mvn clean install` to build the quickstart.
-* Start JBoss Fuse 6 by running bin/fuse (on Linux) or bin\fuse.bat (on Windows).
-* In the JBoss Fuse console, enter the following command:
 
-        osgi:install -s mvn:org.jboss.quickstarts.fuse/cxf-rest/6.3.0.redhat-187
-
-* Fuse should give you an id when the bundle is deployed
-* You can check that everything is ok by issuing  the command:
-
-        osgi:list
-   your bundle should be present at the end of the list
 
 
 Use the bundle
 --------------
-
+#To develop
 ### Browsing Web service metadata
 
 A full listing of all CXF web services is available at
