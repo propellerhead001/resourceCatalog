@@ -1,11 +1,11 @@
 rest: Demonstrates how to create a REST Web service
 ===============================================
-Author: Fuse Team  
+Author: Robert Mills 
 Level: Beginner  
 Technologies: Fuse, OSGi, CXF  
-Summary: This quickstart demonstrates how to create a RESTful (JAX-RS) web service using CXF and expose it through the OSGi HTTP Service.
+Summary: This project is to deploy the TMForum's API spec for the catalog management interface for the resource catalogue using the REST API quickstart 
 Target Product: Fuse  
-Source: <https://github.com/jboss-fuse/quickstarts>
+Source: <https://github.com/propellerhead001/resourceCatalog>
 
 What is it?
 -----------
