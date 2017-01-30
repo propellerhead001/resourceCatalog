@@ -1,8 +1,8 @@
 package io.fabric8.quickstarts.rest;
 
 public class ResourceSpecCharacteristicValue {
-	String valueType, defaultValue, value, unitOfMeasure;
-	ValidFor validFor;
+	private String valueType, defaultValue, value, unitOfMeasure;
+	private ValidFor validFor;
 	public ResourceSpecCharacteristicValue() {
 		super();
 	}
