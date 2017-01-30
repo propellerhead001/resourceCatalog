@@ -22,7 +22,7 @@ public class ResourceSpecCharacteristic {
 		this.resourceSpecCharRelationship = resourceSpecCharRelationship;
 	}
 	public ResourceSpecCharacteristic() {
-		super();
+
 	}
 	public ValidFor getValidFor() {
 		return validFor;
