@@ -34,7 +34,7 @@ import java.util.Map;
  *
  */
 @Path("/catalogManagement/")
-@Api(value = "/catalogueManagement", description = "Operations about catalogueManagement")
+@Api(value = "/catalogueManagement", description = "Operations about catalogManagement")
 public class CatalogManagement {
 	private static final Logger LOG = LoggerFactory.getLogger(CatalogManagement.class);
 
